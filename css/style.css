@@ -1,0 +1,169 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+html{font-family:sans-serif; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%}
+body{margin:0}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{display:block}
+audio, canvas, progress, video{display:inline-block; vertical-align:baseline}
+audio:not([controls]){display:none; height:0}
+[hidden], template{display:none}
+a{background:transparent}
+a:active, a:hover{outline:0}
+abbr[title]{border-bottom:1px dotted}
+b, strong{font-weight:bold}
+dfn{font-style:italic}
+h1{font-size:2em; margin:.67em 0}
+mark{background:#ff0; color:#000}
+small{font-size:80%}
+sub, sup{font-size:75%; line-height:0; position:relative; vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:1em 40px}
+hr{-moz-box-sizing:content-box; box-sizing:content-box; height:0}
+pre{overflow:auto}
+code, kbd, pre, samp{font-family:monospace,monospace; font-size:1em}
+button, input, optgroup, select, textarea{color:inherit; font:inherit; margin:0}
+button{overflow:visible}
+button, select{text-transform:none}
+button, html input[type="button"], input[type="reset"], input[type="submit"]{-webkit-appearance:button; cursor:pointer}
+button[disabled], html input[disabled]{cursor:default}
+button::-moz-focus-inner, input::-moz-focus-inner{border:0; padding:0}
+input{line-height:normal}
+input[type="checkbox"], input[type="radio"]{box-sizing:border-box; padding:0}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button{height:auto}
+input[type="search"]{-webkit-appearance:textfield; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+fieldset{border:1px solid #c0c0c0; margin:0 2px; padding:.35em .625em .75em}
+legend{border:0; padding:0}
+textarea{overflow:auto}
+optgroup{font-weight:bold}
+table{border-collapse:collapse; border-spacing:0}
+td, th{padding:0}
+
+ *{outline:none; margin:0; padding:0; border:0}
+.clearfix:after{content:""; display:table; clear:both}
+/* PlaceHolder Fix */
+::-webkit-input-placeholder{color:#9ba1ab}
+::-moz-placeholder{color:#9ba1ab; opacity:1}
+:-moz-placeholder{color:#9ba1ab; opacity:1}
+:-ms-input-placeholder{color:#9ba1ab}
+/* Text Selection */
+::selection{color:#000; background:#CCC}
+::-moz-selection{color:#000; background:#CCC}
+
+body{background:#f8f2e7; font-family:'segoeuil',sans-serif}
+a{text-decoration:none}
+ul{list-style:none}
+.wrapper{width:1000px; margin:0 auto; overflow:hidden;}
+@font-face{  font-family:'segoeuil';   src:url('font/segoeuil.eot');   src:url('font/segoeuil.eot#iefix') format('embedded-opentype'), url('font/segoeuil.woff') format('woff'), url('font/segoeuil.ttf') format('truetype'), url('font/segoeuil.svg#segoeuil') format('svg');  font-weight:normal;  font-style:normal}
+/* Header starts here */
+header{position:fixed; position: fixed; width: 100%; background: #f8f2e7; z-index: 99;}
+.socialHeader{border-bottom: 1px dashed #d8d8d8; width:100%; background:#f8f2e7; margin-top:2px}
+.socialHeader .social{float:right}
+.socialHeader .social li{float:left; padding-left:6px}
+.socialHeader .social li a{display:inline-block; text-align:center; margin:3px 0; -webkit-transition:all 0.4s ease 0s; -moz-transition:all 0.4s ease 0s; -o-transition:all 0.4s ease 0s; transition:all 0.4s ease 0s}
+.socialHeader .connect{float:right}
+.socialHeader .connect li{float:left; line-height:27px; padding-right:22px}
+
+.socialHeader .connect li a{color:#494949; font-size:12px; -webkit-transition:all 0.4s ease 0s; -moz-transition:all 0.4s ease 0s; -o-transition:all 0.4s ease 0s; transition:all 0.4s ease 0s; line-height:22px}
+.connect li a img{vertical-align:text-bottom; padding-right:5px}
+.socialHeader .connect li a:hover{color:#983123}
+
+.mainHeader{/*height:74px; zoom:1;  left:0;*/  width:100%;}
+.mainHeader .siteLogo{display:inline-block; padding:8px 0px; float:left}
+.mainHeader .RE-logo{float:right; padding: 15px 0;}
+.mainHeader .nav{float:left; overflow: hidden; background: #983123; margin: 15px 19px; padding: 8px;}
+.mainHeader .nav ul li{display:none}
+.mainHeader .nav li{float:left; padding:3px 10px 4px 42px}
+.mainHeader .nav li:first{padding-left:0}
+.mainHeader .nav li a{ color:#fff; font-size:14px; text-transform:uppercase; font-weight:500; -webkit-transition:all 0.4s ease 0s; -moz-transition:all 0.4s ease 0s; -o-transition:all 0.4s ease 0s; transition:all 0.4s ease 0s}
+.mainHeader .nav li a:hover, .mainHeader .nav li a.active{color:#efd064}
+.toggle-menu{display:none}
+/* Header ends here */
+/* Background slider starts here */
+.bxslider{ left:0;  position:fixed;  top:0;  width:100%; z-index:-1}
+.bx-wrapper{ left:0;  position:fixed;  top:0;  width:100%; z-index:-1}
+.bx-viewport .bxslider li{display:block}
+.bxslider li{display:none}
+.bxslider li:first-child{display:block}
+.bxslider li img{width:100%; height:auto}
+/* Background slider ends here */
+/* sliderSpace starts here */
+.sliderSpace{position:relative; height:547px}
+
+.tagline.hide{display:none !important}
+
+.tagline{position:absolute; top:156px; left:238px}
+
+.tagline h2{font-size:55px; font-weight:400; float:left; color:#1d2837; padding-right:20px; line-height:28px; height:56px}
+
+.tagline p{width:320px; float:left; font-size:18px; font-weight:400; line-height:20px; color:#1d2837; padding-left:20px}
+.tagline span{color:#af3c2c;  display:block;  margin-left:192px;  font-family:Segoe Script;  font-size:23px}
+
+.tagline p.default{border-left:1px solid #1d2837}
+/* sliderSpace ends here */
+/* Welcome starts here */
+.welcome{background:#983123; zoom:1; padding:15px 30px 20px 20px}
+.welcome .box{width:100%; position:relative}
+.welcome .box.technology{margin-right:0}
+.welcome .box .icon{ margin-right:-12px;  margin-top:-58px;  position:absolute;  right:0;  top:0}
+.welcome .box h4{font-size:28px; font-weight:normal; color:#fff}
+.welcome .box p{color:#FFF; font-size:16px; font-weight:normal; padding:10px 0; text-align:center;  line-height:24px}
+/* Welcome ends here */
+/* Footer starts here */
+.contentContainer{padding:40px 0 0}
+#contentFrame{background:#f8f2e7; zoom:1; padding:15px 20px 10px 20px; border-top:5px solid #983123; box-shadow: 10px 0px 60px rgba(0, 0, 0, .3);}
+#contentFrame .box{width:100%; position:relative}
+#contentFrame .box .eventsBlock{background:#e8e1d4; overflow:hidden}
+#contentFrame .box h2{color:#000; font-size:28px; font-weight:normal; margin-bottom:20px}
+#contentFrame .box h2 .view-all{font-size:14px; float:right; color:#983123; text-decoration:underline; line-height:40px; text-transform:none}
+#contentFrame .box h2 .view-all:hover{text-decoration:none}
+.box .eventsBlock .post{min-height:105px; padding:10px 10px 5px 10px; width:300px; float:left}
+.box .eventsBlock .post .eventImg{float:left; width:44%}
+.box .eventsBlock .post .eventDesc{float:left; width:56%}
+.box .eventsBlock .post h3{font-size:32px; font-weight:normal; margin:-14px 0 0 0;  padding:0}
+.box .eventsBlock .post h3 span{font-size:16px; text-transform:uppercase}
+.box .eventsBlock .post p{font-size:16px; color:#000; font-weight:400}
+.box .eventsBlock .post p a{color:#983123; padding:5px 0; text-decoration:underline; display:block}
+.box .eventsBlock .post span.readmore{font-size:13px; color:#000; margin-top:8px; display:inline-block; float:right}
+#contentFrame .clientCornerBlock{padding-top:30px}
+.clientCornerBlock .clientCornerWrapper{width:800px; margin:0 auto; overflow:hidden; padding:20px 0}
+.clientCornerWrapper .clientCornerImg{float:left; width:17%}
+.clientCornerWrapper .clientCornerDesc{float:left; width:80%}
+.clientCornerDesc span{font-family:Trebuchet MS; font-size:56px; padding:0}
+.box.contact li{font-size:14px; color:#FFF; font-weight:400}
+.clientCornerDesc p{font-family:cambria;  font-size:20px;  font-style:italic;  color:#575757;  text-align:center;  padding:0 0 0 20px;  margin-top:-45px}
+.box.contact li a{color:#FFF}
+.box.contact li a:hover{text-decoration:underline}
+.box.contact li span{color:#9cd642}
+/* Footer widget ends here */
+/* Footer starts here */
+footer{padding:0}
+#copyrightFooter{background:#f8f2e7; height:60px; border-top:1px solid #ccc}
+#copyrightFooter ul{padding-left:30px; width:400px}
+#copyrightFooter li{float:left; line-height:60px; font-size:14px; color:#666; font-weight:400}
+#copyrightFooter li a{color:#000}
+#copyrightFooter li a:hover{text-decoration:underline}
+#copyrightFooter p{float:right; line-height:60px; font-size:14px; color:#000; font-weight:400; padding-right:30px; width:400px; text-align:right}
+#copyrightFooter p a{color:#983123}
+#copyrightFooter p a:hover{text-decoration:underline}
+/* Footer ends here */
+/*Sub Page Title Bas Starts Here*/
+.innerTitle{background:#983123; zoom:1; padding:15px 30px 20px 20px; margin-top:175px}
+.innerTitle .box{width:100%; position:relative}
+.innerTitle .box .icon{ margin-right:-12px;  margin-top:-58px;  position:absolute;  right:0;  top:0}
+.innerTitle .box h4{font-size:28px; font-weight:normal; color:#fff}
+
+/* SubPage Tilte Ends here*/
+.inner-page{padding:34px 23px 0; color:#fff}
+
+/*FAQ STARTS*/
+ul.faq{margin:0; padding:0; padding-left:35px}
+ul.faq li{list-style-type:decimal; font-size:26px}
+ul.faq h4{font-size:26px; font-family:'segoeuil'; font-weight:normal}
+ul.faq p{font-size:16px; font-family:'segoeuil'; font-weight:normal; line-height:22px; padding:5px 10px 20px 10px}
+/*FAQ Ends*/
+
+
+.mobileMenu{padding: 4px 10px 9px 10px; font-size: 28px; width: 100%; background: #983123; text-align: right;}
+.mobileMenu a{padding-right:42px;}

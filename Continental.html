@@ -1,0 +1,594 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='css/responsive.css' rel='stylesheet' media="screen">
+    <title></title>
+    <style>
+        .dropdown-large {
+            position: static !important;
+        }
+
+        .dropdown-menu-large {
+            margin-left: 16px;
+            margin-right: 16px;
+            padding: 20px 0px;
+            background-color: #f8f2e7;
+        }
+
+            .dropdown-menu-large > li > ul {
+                padding: 0;
+                margin: 0;
+            }
+
+                .dropdown-menu-large > li > ul > li {
+                    list-style: none;
+                }
+
+                    .dropdown-menu-large > li > ul > li > a {
+                        display: block;
+                        padding: 3px 20px;
+                        clear: both;
+                        font-size: 12px;
+                        line-height: 1.428571429;
+                        white-space: normal;
+                        width: 900px;
+                        color: black;
+                    }
+
+            .dropdown-menu-large > li ul > li > a:hover,
+            .dropdown-menu-large > li ul > li > a:focus {
+                text-decoration: none;
+                color: black;
+                background-color: lightgray;
+                width: inherit;
+            }
+
+            .dropdown-menu-large .disabled > a,
+            .dropdown-menu-large .disabled > a:hover,
+            .dropdown-menu-large .disabled > a:focus {
+                color: #999999;
+            }
+
+                .dropdown-menu-large .disabled > a:hover,
+                .dropdown-menu-large .disabled > a:focus {
+                    text-decoration: none;
+                    background-color: transparent;
+                    background-image: none;
+                    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+                    cursor: not-allowed;
+                }
+
+            .dropdown-menu-large .dropdown-header {
+                color: black;
+                font-size: 18px;
+            }
+
+        @media (max-width: 768px) {
+            .dropdown-menu-large {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+                .dropdown-menu-large > li {
+                    margin-bottom: 30px;
+                }
+
+                    .dropdown-menu-large > li:last-child {
+                        margin-bottom: 0;
+                    }
+
+                .dropdown-menu-large .dropdown-header {
+                    padding: 3px 15px !important;
+                }
+        }
+
+        #pdn {
+            padding-top: 10px;
+        }
+
+        #pn {
+            padding-top: 10px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            if ($("#b1").click(function () {
+               $("#carouselGreen").show();
+               $("#carouselRed").hide();
+               $("#carouselBlack").hide();
+            }));
+            if ($("#b2").click(function () {
+                $("#carouselRed").show();
+                $("#carouselGreen").hide();
+                $("#carouselBlack").hide();
+            }));
+            if ($("#b3").click(function () {
+               $("#carouselBlack").show();
+               $("#carouselRed").hide();
+               $("#carouselGreen").hide();
+            }));
+        });
+    </script>
+    <style>
+        #box {
+            width: 20px;
+            height: 20px;
+            padding: 0px;
+            background-color: rgb(25,55,46);
+        }
+
+        #box1 {
+            width: 20px;
+            height: 20px;
+            padding: 0px;
+            background-color: rgb(231, 32, 46);
+        }
+
+        #box2 {
+            width: 20px;
+            height: 20px;
+            padding: 0px;
+            background-color: black;
+        }
+        .footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background-color: cornsilk ;
+            margin-top: 100px;
+            padding-top: 20px;
+            padding-left: 50px;
+            line-height: 20px;
+        }
+        .products{
+            line-height:25px;
+         }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#b1").click(function () {
+                $("#dn").css({ "background-color": "rgb(25,55,46)" });
+            });
+            $("#b2").click(function () {
+                $("#dn").css({ "background-color": "rgb(231, 32, 46)" });
+            });
+            $("#b3").click(function () {
+                $("#dn").css({ "background-color": "grey" });
+            });
+        });
+    </script>
+   </head>
+<body style="background-color: #f8f2e7;">
+    <div class="container-fluid">
+        <div class="form-group">
+            <div class="col-sm-4 pull-right">
+                <a href="mailto:svbz-info@svbz.com" title="svbz-info@svbz.com"><img src="images/mail-icon.png" />svbz-info@svbz.com</a>
+                <a href="#"><img src="images/phone-icon.png" />18000-200-100</a>
+                <a target="blank" href="javascript:;" title="Facebook"><img src="images/fb-icon.png" /></a>
+                <a target="blank" href="javascript:;" title="Twitter"><img src="images/twitter-icon.png" /></a>
+                <a target="blank" href="javascript:;" title="LinkdedIn"><img src="images/linkedin-icon.png" /></a>
+                <a target="blank" href="javascript:;" title="Youtube"><img src="images/youtube-icon.png" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-sm-1"><a href="index.html" class=""><img src="images/svbz-logo.png" alt="SVBZ Logo" style="width:100px;height:50px" /></a></div>
+        <div class="col-sm-9">
+            <nav class="navbar navbar-default navbar-static">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse js-navbar-collapse" style="background-color:brown;">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="index.html" title="SVBZHOME" style="color:white">HOME</a></li>
+                        <li class="dropdown dropdown-large" style="color:white">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white">MOTORCYCLES<b class="caret"></b></a>
+                            <ul class="dropdown-menu dropdown-menu-large row">
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">CAFE RACER</li>
+                                        <li><a href="Continental.html">CONTINENTAL GT</a></li>
+                                        <li class="dropdown-header">CRUISER</li>
+                                        <li><a href="Thunderbird500.html">THUNDERBIRD 500</a></li>
+                                        <li><a href="Thunderbird350.html">THUNDERBIRD 350</a></li>
+                                        <li><a href="ThunderbirdX.html">THUNDERBIRD X</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">RETRO STREET</li>
+                                        <li><a href="ClassicSquadronBlue.html">CLASSICSQUADRONBLUE</a></li>
+                                        <li><a href="ClassicDesertStorm.html">CLASSICDESERTSTORM</a></li>
+                                        <li><a href="ClassicBattleGreen.html">CLASSICBATTLEGREEN</a></li>
+                                        <li><a href="ClassicChrome.html">CLASSICCHROME</a></li>
+                                        <li><a href="Classic500.html">CLASSIC500</a></li>
+                                        <li><a href="Classic350.html">CLASSIC350</a></li>
+                                        <li><a href="ClassicStealthBlack.html">CLASSICSTEALTHBLACK</a></li>
+                                        <li><a href="ClassicGunMetalGrey.html">CLASSICGUNMETALGREY</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">STANDARDSTREET</li>
+                                        <li><a href="Bullet500.html">BULLET500</a></li>
+                                        <li><a href="Bullet350.html">BULLET350</a></li>
+                                        <li><a href="BulletES.html">BULLET ES</a></li>
+                                        <li class="dropdown-header" style="color:black"><a href="Himalayan.html">HIMALAYAN</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" style="color:white">SERVICES</a></li>
+                        <li><a href="#" style="color:white">ACCESSORIES</a></li>
+                        <li><a href="#" style="color:white">REVIEWS</a></li>
+                        <li><a href="faq.html" style="color:white">FAQ</a></li>
+                        <li><a href="#" style="color:white">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-sm-2"><img src="images/enfieldlogo.jpg" alt="Royal Enfield Logo" style="width:150px;height:70px" /></div>
+    </div>
+    <div class="container">
+          <div id="carouselGreen" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="images/cg.png" class="img-responsive" />
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="images/cg1.png"class="img-responsive" />
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carouselGreen" data-slide="prev" style="width:inherit">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselGreen" data-slide="next" style="width:inherit">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div style="display:none" id="carouselRed" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="images/gtr.png" class="img-responsive" />
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="images/gtr1.png" class="img-responsive" />
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carouselRed" data-slide="prev" style="width:inherit">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselRed" data-slide="next" style="width:inherit">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div style="display:none" id="carouselBlack" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="images/gtb.png" class="img-responsive" />
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="images/gtb1.png" class="img-responsive" />
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carouselBlack" data-slide="prev" style="width:inherit">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carouselBlack" data-slide="next" style="width:inherit">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="pdn">
+        <div>
+            <h4>ContinentalGT Colours</h4>
+        </div>
+        <div class="form-group">
+            <a name="gtg" class="b1" id="b1">
+                <div class="col-sm-1 box" id="box"></div>
+                <div class="col-sm-2">GTGREEN</div>
+            </a>
+            <a name="gtg" class="b2" id="b2">
+                <div class="col-sm-1 box1" id="box1"></div>
+                <div class="col-sm-2">GTRED  </div>
+            </a>
+            <a name="gtb" class="b3" id="b3">
+                <div class="col-sm-1 box2" id="box2"></div>
+                <div class="col-sm-2">GTBLACK</div>
+            </a>
+        </div>
+    </div>
+    <div class="container" id="pn">
+        <h3 class="tab1" data-reveal="tab1">
+            Technical-Specification
+        </h3>
+        <img src="images/cgt.png" width="150" height="150" />
+        <div class="compare">
+            <table class="itenarySection" id="table1" style="width:60%;float:left">
+                <tbody>
+                    <tr>
+                        <td><h3>Engine</h3></td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Type</td>
+                        <td></td>
+                        <td>Single Cylinder 4 stroke,Spark ignition,Aircooled Fuel injection </td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Displacement</td>
+                        <td></td>
+                        <td valign="top" align="left">535cc</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Bore x Stroke</td>
+                        <td></td>
+                        <td>87mm x 90mm</td>
+
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">CompressionRatio</td>
+                        <td></td>
+                        <td>8:5:1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>MaximumPower</td>
+                        <td></td>
+                        <td>29.1bhp@5100rpm</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Maximum Torque</td>
+                        <td></td>
+                        <td>44Nm@4000rpm</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Ignition System</td>
+                        <td></td>
+                        <td>Digital Electronic ignition</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Clutch</td>
+                        <td></td>
+                        <td>Wet,multiplate</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">GearBox</td>
+                        <td></td>
+                        <td>5 speed Constant mesh</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Lubrication</td>
+                        <td></td>
+                        <td>Wet sump</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Engine Oil</td>
+                        <td></td>
+                        <td>15 W 50 API, SL Grade & above, JASO MA 2</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Fuel Supply</td>
+                        <td></td>
+                        <td>Electronic fuel injection</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Air Cleaner</td>
+                        <td></td>
+                        <td>Paper Element</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Engine Start</td>
+                        <td></td>
+                        <td>Electric/Kick</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Chassis&Suspension</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Type</td>
+                        <td></td>
+                        <td>Twin downtube cradle frame</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Front suspension</td>
+                        <td></td>
+                        <td>Telescopic, 41mm forks, 110mm travel</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Rear suspension</td>
+                        <td></td>
+                        <td>Paioli,Twin gas charged shock absorbers with adjustable preload, 80mm travel</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="itenarySection" id="table2" style="width:40%;float:left">
+                <tbody>
+                    <tr>
+                        <td><h3>Dimensions</h3></td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Wheelbase</td>
+                        <td></td>
+                        <td>1360mm</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Ground Clearance</td>
+                        <td></td>
+                        <td>140mm</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Length</td>
+                        <td></td>
+                        <td>2060mm</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Width</td>
+                        <td></td>
+                        <td>760mm(without mirrors)</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Seat height</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Kerb Weight</td>
+                        <td></td>
+                        <td>192 kgs(with 90% fuel and oil)</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Fuel Capacity</td>
+                        <td></td>
+                        <td>13.5Ltr</td>
+                    </tr>
+                    <tr>
+                        <td><h3>Brakes&Tyres</h3></td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Tyres Fr.</td>
+                        <td></td>
+                        <td>100/90-18, 56 H Pirelli Sport Demon</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Tyres Rr.</td>
+                        <td></td>
+                        <td>130/70-18, 63 H Pirelli Sport Demon</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Brakes Front</td>
+                        <td></td>
+                        <td>Brembo 300mm Floating disc, Brembo 2-Piston floating caliper</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Brakes Rear</td>
+                        <td></td>
+                        <td>240mm Disc, Single piston floating caliper</td>
+                    </tr>
+                    <tr>
+                        <td><h3>Electricals</h3></td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Electrical System</td>
+                        <td></td>
+                        <td>12volt-DC</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Battery</td>
+                        <td></td>
+                        <td>12 volt, 14Ah</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Head Lamp</td>
+                        <td></td>
+                        <td>60 W / 55 W, HALOGEN</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Tail Lamp</td>
+                        <td></td>
+                        <td>21 W / 5 W</td>
+                    </tr>
+                    <tr>
+                        <td width="35%" valign="top" align="left">Tail Signal Lamp</td>
+                        <td></td>
+                        <td>12V, R10W X 4nos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                    <p style="text-align:left"><a href="index.html" style="color:black">HOME</a></p>
+                    <p style="text-align:left;color:black" id="c1">PRODUCTS</p>
+                    <p style="text-align:left"><a href="#" style="color:black">SERVICES</a></p>
+                    <p style="text-align:left"><a href="#" style="color:black">ACCESSORIES</a></p>
+                    <p style="text-align:left"><a href="#" style="color:black">REVIEWS</a></p>
+                    <p style="text-align:left"><a href="faq.html" style="color:black">FAQ</a></p>
+                    <p style="text-align:left"><a href="#" style="color:black">CONTACT</a></p>
+                </div>
+                    <div class="col-sm-2">
+                            <p style="text-align:left"><a href="Continental.html" style="color:black">CONTINENTAL GT</a></p>
+                            <p style="text-align:left"><a href="Thunderbird500.html" style="color:black">THUNDERBIRD 500</a></p>
+                            <p style="text-align:left"><a href="Thunderbird350.html" style="color:black">THUNDERBIRD 350</a></p>
+                            <p style="text-align:left"><a href="ThunderbirdX.html" style="color:black">THUNDERBIRD X</a></p>
+                            <p style="text-align:left"><a href="ClassicSquadronBlue.html" style="color:black">CLASSICSQUADRONBLUE</a></p>
+                            <p style="text-align:left"><a href="ClassicDesertStorm.html" style="color:black">CLASSICDESERTSTORM</a></p>
+                            <p style="text-align:left"><a href="ClassicBattleGreen.html" style="color:black">CLASSICBATTLEGREEN</a></p>
+                            <p style="text-align:left"><a href="ClassicChrome.html" style="color:black">CLASSICCHROME</a></p>
+                            <p style="text-align:left"><a href="Classic500.html" style="color:black">CLASSIC500</a></p>
+                            <p style="text-align:left"><a href="Classic350.html" style="color:black">CLASSIC350</a></p>
+                      </div>
+                    <div class="col-sm-3">
+                            <p style="text-align:left"><a href="ClassicStealthBlack.html" style="color:black">CLASSICSTEALTHBLACK</a></p>
+                            <p style="text-align:left"><a href="ClassicGunMetalGrey.html" style="color:black">CLASSICGUNMETALGREY</a></p>
+                            <p style="text-align:left"><a href="Bullet500.html" style="color:black">BULLET500</a></p>
+                            <p style="text-align:left"><a href="Bullet350.html" style="color:black">BULLET350</a></p>
+                            <p style="text-align:left"><a href="BulletES.html" style="color:black">BULLET ES</a></p>
+                            <p style="text-align:left"><a href="Himalayan.html" style="color:black">HIMALAYAN</a></p>
+                     </div>
+                     <div class="col-sm-2" style="text-align:left;color:black">
+                     <h4><b>Branch</b></h4>
+                    <div class="row">
+                        <div class="col-sm-12" style="text-align:left">247,Velachery Rd,<br /> Vengaivasal,<br /> Medavakkam,<br /> Chennai,<br />TamilNadu-600100</div>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="text-align:left;color:black">
+                    <h4><b>LOCATIONS</b></h4>
+                    <div class="row">
+                        <div class="col-sm-12">No:27, Mylai Balaji Nagar,<br /> Velachery Main Road,<br /> Pallikaranai,<br /> Chennai,<br />TamilNadu-600100</div>
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-sm-10" style="text-align:left">
+                        <a href="javascript:;" style="color:black" target="blank">Terms &amp; Conditions</a>&nbsp;|&nbsp;
+                        <a href="javascript:;" style="color:black" target="blank">Privacy Policy</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <p>Copyright SVBZ &copy; 2016</p>
+                    </div>
+                </div>
+           </div>
+    </div>
+</body>
+</html>

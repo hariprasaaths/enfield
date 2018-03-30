@@ -1,0 +1,155 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	header{position:relative;}
+	.bx-wrapper{display:none;}
+ 	.wrapper { width : 100%; }
+	.contentContainer{padding:3px 0 0;}
+	.socialHeader .social { display : none; }
+	.socialHeader .connect { float : left; }
+	.socialHeader .connect li { padding : 0 8px; }
+	/*.mainHeader { height : 50px; }*/
+	.toggle-menu { color : #FFFFFF; display : inline-block; font-size : 24px; }
+	.mainHeader .logo { padding : 8px; }
+	.mainHeader .logo img { height : 48px; width : auto; }
+	.mainHeader nav { background : #983123; box-shadow : 0 5px 15px 1px #000; height : 100%; left : -80%; overflow-y : scroll; position : fixed; top : 0; width : 76%; z-index : 1; }
+	.mainHeader .nav { float : left; width : 100%; margin:0; padding:0; }
+	.mainHeader .nav .plusminus { display : none; }
+	.mainHeader .nav .icon-down-dir { display : block; float : right; padding-right : 10px; }
+	.mainHeader .nav li { border-bottom : 1px solid #DDD; display : block; float : none; padding-left : 0; }
+	.mainHeader .nav li a { color : #fff; display : block; line-height : 38px; padding : 0 10px; }
+	.mainHeader .nav ul li { border-bottom : 0; border-top : 1px solid #8e1201; display : block; }
+	.mainHeader .nav ul li a { padding : 0 10px 0 20px; }
+	.mainHeader .nav ul ul li a { padding : 0 10px 0 30px; }
+	.mainHeader .nav ul { display : none; }
+	#main .sliderSpace { display : none; }
+	#main { margin-top : 0; }
+	.welcome { margin-top : 44px; padding : 20px 10px; }
+	.welcome .box { margin-right : 0; width : 100%; }
+	.welcome .box .icon { height : auto; margin-right : 0; margin-top : -46px; width : 60px; }
+	.innerTitle { margin-top : 44px; padding : 20px 10px; }
+	.innerTitle .box { margin-right : 0; width : 100%; }
+	.innerTitle .box .icon { height : auto; margin-right : 0; margin-top : -46px; width : 60px; }
+	.bx-wrapper { position : relative; top : 80px; }
+	#contentFrame { padding : 0 10px 20px; }
+	#contentFrame .box { margin-right : 0; padding-bottom : 25px; width : 100%; }
+	.box .eventsBlock .post { min-height : 0; width : 100%; }
+	.box .eventsBlock .post .eventImg { width : 48%; }
+	.box .eventsBlock .post .eventDesc { width : 48%; }
+	#contentFrame .clientCornerBlock { padding-top : 30px; }
+	.clientCornerBlock .clientCornerWrapper { margin : 0 auto; overflow : hidden; padding : 20px 0; width : 100%; }
+	.clientCornerWrapper .clientCornerImg { float : none; text-align : center; width : 100%; }
+	.clientCornerWrapper .clientCornerDesc { float : none; width : 100%; }
+	.clientCornerDesc span { font-family : Trebuchet MS; font-size : 56px; padding : 0; }
+	footer { padding : 0; }
+	#copyrightFooter ul { display : none; }
+	#copyrightFooter p { float : left; padding : 0 0 0 12px; text-align : left; width : auto; }
+	}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	header{position:relative;}
+	.bx-wrapper{display:none;}
+ 	.wrapper { width : 100%; }
+	.contentContainer{padding:3px 0 0;}
+	.socialHeader .social { display : none; }
+	.socialHeader .connect { float : left; }
+	.socialHeader .connect li { padding : 0 8px; }
+	.toggle-menu { color : #FFFFFF; display : inline-block; font-size : 24px; }
+	.mainHeader .logo { padding : 8px; }
+	.mainHeader .logo img { height : 28px; width : auto; }
+	.mainHeader nav { background : #983123;; box-shadow : 0 5px 15px 1px #000; height : 100%; left : -80%; overflow-y : scroll; position : fixed; top : 0; width : 76%; z-index : 1; }
+	.mainHeader .nav { float : left; width : 100%; margin:0; padding:0;}
+	.mainHeader .nav .plusminus { display : none; }
+	.mainHeader .nav .icon-down-dir { display : block; float : right; padding-right : 10px; }
+	.mainHeader .nav li { border-bottom : 1px solid #DDD; display : block; float : none; padding-left : 0; }
+	.mainHeader .nav li a { color : #fff; display : block; line-height : 38px; padding : 0 10px; }
+	.mainHeader .nav ul li { border-bottom : 0; border-top : 1px solid #8e1201; display : block; }
+	.mainHeader .nav ul li a { padding : 0 10px 0 20px; }
+	.mainHeader .nav ul ul li a { padding : 0 10px 0 30px; }
+	.mainHeader .nav ul { display : none; }
+	#main .sliderSpace { display : none; }
+	#main { margin-top : 0; }
+	.welcome { margin-top : 44px; padding : 20px 10px; }
+	.welcome .box { margin-right : 0; width : 100%; }
+	.welcome .box .icon { height : auto; margin-right : 0; margin-top : -46px; width : 60px; }
+	.innerTitle { margin-top : 44px; padding : 20px 10px; }
+	.innerTitle .box { margin-right : 0; width : 100%; }
+	.innerTitle .box .icon { height : auto; margin-right : 0; margin-top : -46px; width : 60px; }
+	.bx-wrapper { position : relative; top : 80px; }
+	#contentFrame { padding : 0 10px 20px; }
+	#contentFrame .box { margin-right : 0; padding-bottom : 16px; width : 100%; }
+	#contentFrame .box h2 { padding-bottom : 10px; }
+	.box .eventsBlock .post { min-height : 0; width : 100%; }
+	.box .eventsBlock .post .eventImg { width : 24%; }
+	.box .eventsBlock .post .eventDesc { width : 72%; }
+	footer { padding : 0; }
+	#copyrightFooter ul { display : none; }
+	#copyrightFooter p { float : left; padding : 0 0 0 12px; text-align : left; }
+	}
+@media only screen and (min-width: 600px) and (max-width: 767px) { 	
+	header{position:relative;}
+	.bx-wrapper{display:none;}
+	.wrapper { width : 100%; }
+	.contentContainer{padding:3px 0 0;}
+	.socialHeader .social { display : none; }
+	.socialHeader .connect { float : left; }
+	.socialHeader .connect li { padding : 0 8px; }
+	.toggle-menu { color : #FFFFFF; display : inline-block; font-size : 24px; }
+	.mainHeader .logo { padding : 8px; }
+	.mainHeader .logo img { height : 28px; width : auto; }
+	.mainHeader nav { background : #983123;; box-shadow : 0 5px 15px 1px #000; height : 100%; left : -80%; overflow-y : scroll; position : fixed; top : 0; width : 76%; z-index : 1; }
+	.mainHeader .nav { float : left; width : 100%; margin:0; padding:0;}
+	.mainHeader .nav .plusminus { display : none; }
+	.mainHeader .nav .icon-down-dir { display : block; float : right; padding-right : 10px; }
+	.mainHeader .nav li { border-bottom : 1px solid #DDD; display : block; float : none; padding-left : 0; }
+	.mainHeader .nav li a { color : #fff; display : block; line-height : 38px; padding : 0 10px; }
+	.mainHeader .nav ul li { border-bottom : 0; border-top : 1px solid #8e1201; display : block; }
+	.mainHeader .nav ul li a { padding : 0 10px 0 20px; }
+	.mainHeader .nav ul ul li a { padding : 0 10px 0 30px; }
+	.mainHeader .nav ul { display : none; }
+	#main .sliderSpace { display : none; }
+	#main { margin-top : 0; }
+	.welcome { margin-top : 44px; padding : 20px 10px; }
+	.welcome .box { margin-right : 0; width : 100%; }
+	.welcome .box .icon { height : auto; margin-right : 0; margin-top : -46px; width : 60px; }
+	.innerTitle { margin-top : 44px; padding : 20px 10px; }
+	.innerTitle .box { margin-right : 0; width : 100%; }
+	.innerTitle .box .icon { height : auto; margin-right : 0; margin-top : -46px; width : 60px; }
+	.bx-wrapper { position : relative; top : 80px; }
+	#contentFrame { padding : 0 10px 20px; }
+	#contentFrame .box { margin-right : 0; padding-bottom : 16px; width : 100%; }
+	#contentFrame .box h2 { padding-bottom : 10px; }
+	.box .eventsBlock .post { min-height : 0; width : 100%; }
+	.box .eventsBlock .post .eventImg { width : 24%; }
+	.box .eventsBlock .post .eventDesc { width : 72%; }
+	#contentFrame .clientCornerBlock { padding-top : 30px; }
+	.clientCornerBlock .clientCornerWrapper { margin : 0 auto; overflow : hidden; padding : 20px 0; width : 100%; }
+	.clientCornerWrapper .clientCornerImg { float : left; width : 17%; }
+	.clientCornerWrapper .clientCornerDesc { float : left; width : 80%; }
+	.clientCornerDesc span { font-family : Trebuchet MS; font-size : 56px; padding : 0; }
+	footer { padding : 0; }
+	#copyrightFooter ul { display : none; }
+	#copyrightFooter p { float : left; padding : 0 0 0 12px; text-align : left; }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+ 	.wrapper { width : 768px; }
+	.social { padding-left : 10px; }
+	.connect { padding-right : 10px; }
+	.mainHeader .logo { padding : 20px 0 20px 10px; }
+	.mainHeader .logo img { height : auto; width : 140px; }
+	.mainHeader .nav { padding-right : 10px; }
+	.mainHeader .nav li { padding-left : 12px; }
+	.sliderSpace .sliderSpace { display : none !important; }
+	.sliderSpace { height : 370px; }
+	.tagline { position : absolute; right : 0; top : 80px; }
+	.welcome { margin-top : 0; padding : 20px; }
+	.welcome .box { margin-right : 20px; width : 100%; }
+	.welcome .box .icon { height : auto; margin-top : -50px; width : 70px; }
+	.innerTitle { margin-top : 0; padding : 20px; }
+	.innerTitle .box { margin-right : 20px; width : 100%; }
+	.innerTitle .box .icon { height : auto; margin-top : -50px; width : 70px; }
+	#contentFrame { padding : 20px; }
+	#contentFrame .box { margin-right : 20px; width : 100%; }
+	#contentFrame .box h2 { font-size : 22px; }
+	#contentFrame .box h2 span { font-size : 15px; }
+	#contentFrame .box h2 a { font-size : 11px; }
+	footer { padding : 40px 0 0; }
+}

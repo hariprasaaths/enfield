@@ -1,0 +1,312 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to SVBZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href='css/responsive.css' rel='stylesheet' media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        .dropdown-large {
+            position: static !important;
+        }
+
+        .dropdown-menu-large {
+            margin-left: 16px;
+            margin-right: 16px;
+            padding: 20px 0px;
+            background-color: #f8f2e7;
+        }
+
+            .dropdown-menu-large > li > ul {
+                padding: 0;
+                margin: 0;
+                
+            }
+
+                .dropdown-menu-large > li > ul > li {
+                    list-style: none;
+                    
+                }
+
+                    .dropdown-menu-large > li > ul > li > a {
+                        display: block;
+                        padding: 3px 20px;
+                        clear: both;
+                        font-size:12px;
+                        line-height: 1.428571429;
+                        color: black;
+                        white-space: normal;
+                        width:900px;
+                      }
+
+            .dropdown-menu-large > li ul > li > a:hover,
+            .dropdown-menu-large > li ul > li > a:focus {
+                text-decoration: none;
+                color: black;
+                background-color: lightgray;
+                width:inherit;
+            }
+
+            .dropdown-menu-large .disabled > a,
+            .dropdown-menu-large .disabled > a:hover,
+            .dropdown-menu-large .disabled > a:focus {
+                color: #999999;
+            }
+
+                .dropdown-menu-large .disabled > a:hover,
+                .dropdown-menu-large .disabled > a:focus {
+                    text-decoration: none;
+                    background-color: transparent;
+                    background-image: none;
+                    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+                    cursor: not-allowed;
+                }
+
+            .dropdown-menu-large .dropdown-header {
+                color: black;
+                font-size: 18px;
+            }
+
+        @media (max-width: 768px) {
+            .dropdown-menu-large {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+                .dropdown-menu-large > li {
+                    margin-bottom: 30px;
+                }
+               .dropdown-menu-large > li:last-child {
+                        margin-bottom: 0;
+                    }
+
+                .dropdown-menu-large .dropdown-header {
+                    padding: 3px 15px !important;
+                }
+        }
+           body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+         .footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background-color: cornsilk;
+            text-align: center;
+            margin-top: 100px;
+            padding-top: 20px;
+            padding-left: 50px;
+            line-height: 20px;
+         }
+        #products{
+            line-height:25px;
+        }
+     </style>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="form-group">
+                <ul class="social">
+                    <li>
+                        <div class="col-sm-4 pull-right">
+                            <a href="mailto:svbz-info@svbz.com" title="svbz-info@svbz.com"><img src="images/mail-icon.png" />svbz-info@svbz.com</a>
+                            <a href="#"><img src="images/phone-icon.png" />18000-200-100</a>
+                            <a target="blank" href="javascript:;" title="Facebook"><img src="images/fb-icon.png" /></a>
+                            <a target="blank" href="javascript:;" title="Twitter"><img src="images/twitter-icon.png" /></a>
+                            <a target="blank" href="javascript:;" title="LinkdedIn"><img src="images/linkedin-icon.png" /></a>
+                            <a target="blank" href="javascript:;" title="Youtube"><img src="images/youtube-icon.png" /></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="col-sm-1"><a href="index.html" class=""><img src="images/svbz-logo.png" alt="SVBZ Logo" style="width:100px;height:50px" /></a></div>
+            <div class="col-sm-9">
+                <nav class="navbar navbar-default navbar-static">
+                    <div class="navbar-header"> 
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse js-navbar-collapse" style="background-color:brown;">
+                        <ul class="nav navbar-nav">
+                            <li> <a href="index.html" title="SVBZHOME" style="color:white">HOME</a></li>
+                            <li class="dropdown dropdown-large" style="color:white">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white">MOTORCYCLES<b class="caret"></b></a>
+                                <ul class="dropdown-menu dropdown-menu-large row">
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">CAFE RACER</li>
+                                            <li><a href="Continental.html">CONTINENTAL GT</a></li>
+                                            <li class="dropdown-header">CRUISER</li>
+                                            <li><a href="Thunderbird500.html">THUNDERBIRD 500</a></li>
+                                            <li><a href="Thunderbird350.html">THUNDERBIRD 350</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">RETRO STREET</li>
+                                            <li><a href="ClassicSquadronBlue.html">CLASSICSQUADRONBLUE</a></li>
+                                            <li><a href="ClassicDesertStorm.html">CLASSICDESERTSTORM</a></li>
+                                            <li><a href="ClassicBattleGreen.html">CLASSICBATTLEGREEN</a></li>
+                                            <li><a href="ClassicChrome.html">CLASSICCHROME</a></li>
+                                            <li><a href="Classic500.html">CLASSIC500</a></li>
+                                            <li><a href="Classic350.html">CLASSIC350</a></li>
+                                            <li><a href="ClassicStealthBlack.html">CLASSICSTEALTHBLACK</a></li>
+                                            <li><a href="ClassicGunMetalGrey.html">CLASSICGUNMETALGREY</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-3">
+                                        <ul>
+                                            <li class="dropdown-header">STANDARDSTREET</li>
+                                            <li><a href="Bullet500.html">BULLET500</a></li>
+                                            <li><a href="Bullet350.html">BULLET350</a></li>
+                                            <li><a href="BulletES.html">BULLETES</a></li>
+                                            <li class="dropdown-header" style="color:black"><a href="#">HIMALAYAN</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#" style="color:white">SERVICES</a></li>
+                            <li><a href="#" style="color:white">ACCESSORIES</a></li>
+                            <li><a href="#" style="color:white">REVIEWS</a></li>
+                            <li><a href="faq.html" style="color:white">FAQ</a></li>
+                            <li><a href="#" style="color:white">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-2"><img src="images/enfieldlogo.jpg" alt="Royal Enfield Logo" style="width:150px;height:70px" /></div>
+          </div>
+    </header>
+    <div id="main">
+        <div class="container-fluid">
+            <ul class="bxslider">
+                <li data-tagspan="true adventures" data-tagpara="A bike too good to be true Now its here... its like nothing you've ever ridden" data-tagtitle="Inspire" data-tagclass="default"><img src="images/sliderImg1.png" alt="slider1" /></li>
+                <li data-tagspan="true adventures" data-tagpara="Transformation of transactional HR" data-tagtitle="Innovate" data-tagclass="default"><img src="images/sliderImg2.jpg" alt="slider2" /></li>
+                <li data-tagspan="true adventures" data-tagpara="A bike too good to be true Now its here... its like nothing you've ever ridden" data-tagtitle="Inspire" data-tagclass="default"><img src="images/sliderImg3.png" alt="slider3" /></li>
+                <li data-tagspan="true adventures" data-tagpara="Transformation of transactional HR" data-tagtitle="Innovate" data-tagclass="default"><img src="images/sliderImg4.jpg" alt="slider4" /></li>
+                <li data-tagspan="true adventures" data-tagpara="A bike too good to be true Now its here... its like nothing you've ever ridden" data-tagtitle="Inspire" data-tagclass="default"><img src="images/sliderImg5.png" alt="slider5" /></li>
+            </ul>
+            <div class="sliderSpace">
+                <div class="mapview">&nbsp;</div>
+                <div class="tagline">
+                    <h2>&nbsp;</h2>
+                    <p>&nbsp;</p>
+                    <span>&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="welcome clearfix">
+            <div class="box">
+                <img src="images/welcome-icon.png" class="icon" alt="Welcome">
+                <h4>Welcome</h4>
+                <p>Nullam efficitur tellus vitae lorem pellentesque dapibus. Fusce quis ipsum pharetra, lobortis arcu sed, dignissim enim. Vestibulum non ex orci. Praesent id gravida sapien, et fermentum dolor. Cras laoreet sed purus tempus laoreet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec at placerat libero.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="box" style="width:100%">
+        <div id="contentFrame" class="clearfix">
+            <div class="col-sm-11"></div><h2>Events</h2>
+            <div id="box1" style="width:99%">
+                <div class="col-sm-2"><img src="images/eventImg1.png" /></div>
+                <div class="col-sm-2"><a href="#"><h3> 08 August</h3><p>Cras laoreet sed purus tempus laoreet</p></a><span class="readmore pull-right">readmore</span></div>
+                <div class="col-sm-2"><img src="images/eventImg2.png" /></div>
+                <div class="col-sm-2"><a href="#"><h3>25 October</h3><p>Cras laoreet sed purus tempus laoreet</p></a> <span class="readmore pull-right">readmore</span></div>
+                <div class="col-sm-2"><img src="images/eventImg3.png" /></div>
+                <div class="col-sm-2">
+                    <a href="#"><h3>29 September</h3><p>Cras laoreet sed purus tempus laoreet</p></a>
+                    <span class="readmore pull-right">readmore</span>
+                </div>
+            </div>
+            <div><h1>Client's Corner</h1></div>
+            <div class="col-sm-4" align="right"><img src="images/clientNoImage.png" /></div>
+            <div class="col-sm-6"><h4>Curabitur lacinia urna vel nisl semper, vel sollicitudin nisl ornare. Donec dapibus turpis a efficitur volutpat. Cras nec sem id ipsum pretium pulvinar.</h4></div>
+        </div>
+        </div>
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                    <p style="text-align:left"><a href="index.html" style="color:black">HOME</a></p>
+                    <p style="text-align:left;color:black" id="c1">PRODUCTS</p>
+                    <p style="text-align:left"><a href="#" style="color:black">SERVICES</a></p>
+                    <p style="text-align:left"><a href="#" style="color:black">ACCESSORIES</a></p>
+                    <p style="text-align:left"><a href="#" style="color:black">REVIEWS</a></p>
+                    <p style="text-align:left"><a href="faq.html" style="color:black">FAQ</a></p>
+                    <p style="text-align:left"><a href="#" style="color:black">CONTACT</a></p>
+                </div>
+                <div class="products" id="products">
+                    <div class="col-sm-2">
+                        <ul style="list-style-type:none">
+                            <li style="text-align:left"><a href="Continental.html" style="color:black">CONTINENTAL GT</a></li>
+                            <li style="text-align:left"><a href="Thunderbird500.html" style="color:black">THUNDERBIRD 500</a></li>
+                            <li style="text-align:left"><a href="Thunderbird350.html" style="color:black">THUNDERBIRD 350</a></li>
+                            <li style="text-align:left"><a href="ThunderbirdX.html" style="color:black">THUNDERBIRD X</a></li>
+                            <li style="text-align:left"><a href="ClassicSquadronBlue.html" style="color:black">CLASSICSQUADRONBLUE</a></li>
+                            <li style="text-align:left"><a href="ClassicDesertStorm.html" style="color:black">CLASSICDESERTSTORM</a></li>
+                            <li style="text-align:left"><a href="ClassicBattleGreen.html" style="color:black">CLASSICBATTLEGREEN</a></li>
+                            <li style="text-align:left"><a href="ClassicChrome.html" style="color:black">CLASSICCHROME</a></li>
+                            <li style="text-align:left"><a href="Classic500.html" style="color:black">CLASSIC500</a></li>
+                            <li style="text-align:left"><a href="Classic350.html" style="color:black">CLASSIC350</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <ul style="list-style-type:none">
+                            <li style="text-align:left"><a href="ClassicStealthBlack.html" style="color:black">CLASSICSTEALTHBLACK</a></li>
+                            <li style="text-align:left"><a href="ClassicGunMetalGrey.html" style="color:black">CLASSICGUNMETALGREY</a></li>
+                            <li style="text-align:left"><a href="Bullet500.html" style="color:black">BULLET500</a></li>
+                            <li style="text-align:left"><a href="Bullet350.html" style="color:black">BULLET350</a></li>
+                            <li style="text-align:left"><a href="BulletES.html" style="color:black">BULLET ES</a></li>
+                            <li style="text-align:left"><a href="Himalayan.html" style="color:black">HIMALAYAN</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="text-align:left;color:black">
+                    <h4><b>Branch</b></h4>
+                    <div class="row">
+                        <div class="col-sm-12" style="text-align:left">247,Velachery Rd,<br /> Vengaivasal,<br /> Medavakkam,<br /> Chennai,<br />TamilNadu-600100</div>
+                    </div>
+                </div>
+                <div class="col-sm-2" style="text-align:left;color:black">
+                    <h4><b>LOCATIONS</b></h4>
+                    <div class="row">
+                        <div class="col-sm-12">No:27, Mylai Balaji Nagar,<br /> Velachery Main Road,<br /> Pallikaranai,<br /> Chennai,<br />TamilNadu-600100</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-10" style="text-align:left">
+                    <a href="javascript:;" style="color:black" target="blank">Terms &amp; Conditions</a>&nbsp;|&nbsp;
+                    <a href="javascript:;" style="color:black" target="blank">Privacy Policy</a>
+                </div>
+                <div class="col-sm-2">
+                    <p>Copyright SVBZ &copy; 2016</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Javascript Templating -->
+    <script src="js/jquery.min.js"></script>
+    <!-- IE FallBack -->
+    <!--[if lt IE 9]>
+        <script src="js/selectivizr-min.js"></script>
+    <!--[endif]-->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.maphilight.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
